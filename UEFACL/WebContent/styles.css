@@ -1,0 +1,97 @@
+#clubs {
+	border-collapse: collapse;
+}
+
+#clubs th,#clubs td {
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.playernumber {
+	text-align: right;
+}
+
+#players caption {
+	text-align: left;
+}
+
+#players {
+	position: relative;
+	font-size: 1.5em;
+}
+
+#Goalkeepers {
+	margin-bottom: 20px
+}
+
+#Midfielders {
+	position: absolute;
+	top: 0;
+	left: 300px;
+}
+
+#Forwards {
+	position: absolute;
+	top: 0;
+	left: 600px;
+}
+
+#clubgoalscorers {
+	position: absolute;
+	top: 0;
+	left: 900px;
+}
+
+#clubgoalscorers caption {
+	text-align: center;
+}
+
+#group {
+	position: relative;
+	font-size: 1.5em;
+}
+
+#standings {
+	margin-bottom: 20px
+}
+
+#groupgoalscorers {
+	position: absolute;
+	top: 0;
+	left: 600px;
+}
+
+.club {
+	text-align: center;
+}
+
+.clubname {
+	text-align: left;
+}
+
+.homeclub {
+	text-align: right;
+}
+
+.matchgroup {
+	text-align: center;
+}
+
+.matchhomeclub {
+	text-align: right;
+	vertical-align: bottom;
+	font-size: 3em;
+}
+
+.matchscore {
+	font-size: 4em;
+}
+
+.matchawayclub {
+	vertical-align: bottom;
+	font-size: 3em;
+}
+
+.homegoal {
+	text-align: right;
+}
