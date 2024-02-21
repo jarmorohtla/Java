@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="md1" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Burnley - Manchester City" value="2"></entry>
+<entry key="Arsenal - Nottingham Forest" value="1"></entry>
+<entry key="AFC Bournemouth - West Ham United" value="x"></entry>
+<entry key="Brighton Hove Albion - Luton Town" value="1"></entry>
+<entry key="Everton - Fulham" value="2"></entry>
+<entry key="Sheffield United - Crystal Palace" value="2"></entry>
+<entry key="Newcastle United - Aston Villa" value="1"></entry>
+<entry key="Brentford - Tottenham Hotspur" value="x"></entry>
+<entry key="Chelsea - Liverpool" value="x"></entry>
+<entry key="Manchester United - Wolverhampton Wanderers" value="1"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md2" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Nottingham Forest - Sheffield United" value="1"></entry>
+<entry key="Fulham - Brentford" value="2"></entry>
+<entry key="Liverpool - AFC Bournemouth" value="1"></entry>
+<entry key="Wolverhampton Wanderers - Brighton Hove Albion" value="2"></entry>
+<entry key="Tottenham Hotspur - Manchester United" value="1"></entry>
+<entry key="Manchester City - Newcastle United" value="1"></entry>
+<entry key="Aston Villa - Everton" value="1"></entry>
+<entry key="West Ham United - Chelsea" value="1"></entry>
+<entry key="Crystal Palace - Arsenal" value="2"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md3" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Chelsea - Luton Town" value="1"></entry>
+<entry key="AFC Bournemouth - Tottenham Hotspur" value="2"></entry>
+<entry key="Arsenal - Fulham" value="x"></entry>
+<entry key="Brentford - Crystal Palace" value="x"></entry>
+<entry key="Everton - Wolverhampton Wanderers" value="2"></entry>
+<entry key="Manchester United - Nottingham Forest" value="1"></entry>
+<entry key="Brighton Hove Albion - West Ham United" value="2"></entry>
+<entry key="Burnley - Aston Villa" value="2"></entry>
+<entry key="Sheffield United - Manchester City" value="2"></entry>
+<entry key="Newcastle United - Liverpool" value="2"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md4" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Luton Town - West Ham United" value="2"></entry>
+<entry key="Sheffield United - Everton" value="x"></entry>
+<entry key="Brentford - AFC Bournemouth" value="x"></entry>
+<entry key="Burnley - Tottenham Hotspur" value="2"></entry>
+<entry key="Chelsea - Nottingham Forest" value="2"></entry>
+<entry key="Manchester City - Fulham" value="1"></entry>
+<entry key="Brighton Hove Albion - Newcastle United" value="1"></entry>
+<entry key="Crystal Palace - Wolverhampton Wanderers" value="1"></entry>
+<entry key="Liverpool - Aston Villa" value="1"></entry>
+<entry key="Arsenal - Manchester United" value="1"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md5" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Wolverhampton Wanderers - Liverpool" value="2"></entry>
+<entry key="Aston Villa - Crystal Palace" value="1"></entry>
+<entry key="Fulham - Luton Town" value="1"></entry>
+<entry key="Manchester United - Brighton Hove Albion" value="2"></entry>
+<entry key="Tottenham Hotspur - Sheffield United" value="1"></entry>
+<entry key="West Ham United - Manchester City" value="2"></entry>
+<entry key="Newcastle United - Brentford" value="1"></entry>
+<entry key="AFC Bournemouth - Chelsea" value="x"></entry>
+<entry key="Everton - Arsenal" value="2"></entry>
+<entry key="Nottingham Forest - Burnley" value="x"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md6" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Crystal Palace - Fulham" value="x"></entry>
+<entry key="Luton Town - Wolverhampton Wanderers" value="x"></entry>
+<entry key="Manchester City - Nottingham Forest" value="1"></entry>
+<entry key="Brentford - Everton" value="2"></entry>
+<entry key="Burnley - Manchester United" value="2"></entry>
+<entry key="Arsenal - Tottenham Hotspur" value="x"></entry>
+<entry key="Brighton Hove Albion - AFC Bournemouth" value="1"></entry>
+<entry key="Chelsea - Aston Villa" value="2"></entry>
+<entry key="Liverpool - West Ham United" value="1"></entry>
+<entry key="Sheffield United - Newcastle United" value="2"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md7" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Aston Villa - Brighton Hove Albion" value="1"></entry>
+<entry key="AFC Bournemouth - Arsenal" value="2"></entry>
+<entry key="Everton - Luton Town" value="2"></entry>
+<entry key="Manchester United - Crystal Palace" value="2"></entry>
+<entry key="Newcastle United - Burnley" value="1"></entry>
+<entry key="West Ham United - Sheffield United" value="1"></entry>
+<entry key="Wolverhampton Wanderers - Manchester City" value="1"></entry>
+<entry key="Tottenham Hotspur - Liverpool" value="1"></entry>
+<entry key="Nottingham Forest - Brentford" value="x"></entry>
+<entry key="Fulham - Chelsea" value="2"></entry>
+<entry key="Luton Town - Burnley" value="2"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md8" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Luton Town - Tottenham Hotspur" value="2"></entry>
+<entry key="Burnley - Chelsea" value="2"></entry>
+<entry key="Everton - AFC Bournemouth" value="1"></entry>
+<entry key="Fulham - Sheffield United" value="1"></entry>
+<entry key="Manchester United - Brentford" value="1"></entry>
+<entry key="Crystal Palace - Nottingham Forest" value="x"></entry>
+<entry key="Brighton Hove Albion - Liverpool" value="x"></entry>
+<entry key="West Ham United - Newcastle United" value="x"></entry>
+<entry key="Wolverhampton Wanderers - Aston Villa" value="x"></entry>
+<entry key="Arsenal - Manchester City" value="1"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md9" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Liverpool - Everton" value="1"></entry>
+<entry key="AFC Bournemouth - Wolverhampton Wanderers" value="2"></entry>
+<entry key="Brentford - Burnley" value="1"></entry>
+<entry key="Manchester City - Brighton Hove Albion" value="1"></entry>
+<entry key="Newcastle United - Crystal Palace" value="1"></entry>
+<entry key="Nottingham Forest - Luton Town" value="x"></entry>
+<entry key="Chelsea - Arsenal" value="x"></entry>
+<entry key="Sheffield United - Manchester United" value="2"></entry>
+<entry key="Aston Villa - West Ham United" value="1"></entry>
+<entry key="Tottenham Hotspur - Fulham" value="1"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+<bean id="md10" class="eplprediction.Matchday">
+<constructor-arg>
+<map>
+<entry key="Crystal Palace - Tottenham Hotspur" value="2"></entry>
+<entry key="Chelsea - Brentford" value="2"></entry>
+<entry key="Arsenal - Sheffield United" value="1"></entry>
+<entry key="AFC Bournemouth - Burnley" value="1"></entry>
+<entry key="Wolverhampton Wanderers - Newcastle United" value="x"></entry>
+<entry key="West Ham United - Everton" value="2"></entry>
+<entry key="Aston Villa - Luton Town" value="1"></entry>
+<entry key="Brighton Hove Albion - Fulham" value="x"></entry>
+<entry key="Liverpool - Nottingham Forest" value="1"></entry>
+<entry key="Manchester United - Manchester City" value="2"></entry>
+</map>
+</constructor-arg>
+</bean>
+
+</beans>
